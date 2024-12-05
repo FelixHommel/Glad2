@@ -9,5 +9,5 @@ set(LIBRARY "glad2")
 
 project(${LIBRARY})
 
-add_library(${LIBRARY} include/glad/glad.h src/glad.c include/KHR/khrplatform.h)
+add_library(${LIBRARY} include/glad/gl.h src/gl.c include/KHR/khrplatform.h)
 target_include_directories(${LIBRARY} PUBLIC include/)
