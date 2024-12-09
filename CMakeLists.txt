@@ -5,7 +5,7 @@ project(
     LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD 23)
-set(LIBRARY "glad2")
+set(LIBRARY "Glad2")
 
 project(${LIBRARY})
 
